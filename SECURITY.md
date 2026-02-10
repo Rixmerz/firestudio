@@ -125,13 +125,13 @@ This project depends on several npm packages. We recommend:
 
 ### Key Dependencies
 
-| Package | Purpose |
-|---------|---------|
-| `firebase-admin` | Firebase backend operations |
-| `electron` | Desktop application framework |
-| `react`, `react-dom` | UI framework |
-| `@mui/material` | UI components |
-| `node-fetch` | HTTP requests for OAuth |
+| Package              | Purpose                       |
+| -------------------- | ----------------------------- |
+| `firebase-admin`     | Firebase backend operations   |
+| `electron`           | Desktop application framework |
+| `react`, `react-dom` | UI framework                  |
+| `@mui/material`      | UI components                 |
+| `node-fetch`         | HTTP requests for OAuth       |
 
 ## Compliance
 

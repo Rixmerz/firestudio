@@ -6,7 +6,7 @@ try {
   const pngToIcoModule = require('png-to-ico');
   // Use default export or imagesToIco
   pngToIco = pngToIcoModule.default || pngToIcoModule.imagesToIco || pngToIcoModule;
-} catch (e) {
+} catch {
   console.log('png-to-ico not installed, ICO generation will be skipped');
 }
 
@@ -67,10 +67,7 @@ async function generateIcon() {
   }
 
   // Generate main icon.png (256x256 is good for Electron)
-  await sharp(Buffer.from(svg))
-    .resize(256, 256)
-    .png()
-    .toFile(path.join(assetsDir, 'icon.png'));
+  await sharp(Buffer.from(svg)).resize(256, 256).png().toFile(path.join(assetsDir, 'icon.png'));
   console.log('Generated icon.png (256x256)');
 
   // Also save the SVG
@@ -87,10 +84,7 @@ async function generateIcon() {
       icoPngs.push(pngPath);
     } else {
       // Generate if not exists
-      await sharp(Buffer.from(svg))
-        .resize(s, s)
-        .png()
-        .toFile(pngPath);
+      await sharp(Buffer.from(svg)).resize(s, s).png().toFile(pngPath);
       icoPngs.push(pngPath);
     }
   }
