@@ -211,15 +211,6 @@ See detailed OAuth setup guide in the [Google Sign-In Setup](#google-sign-in-set
 | `npm run build:linux` | Build for Linux (`.AppImage` + `.deb` + `.tar.gz`) |
 | `npm run build:all`   | Build for all platforms                            |
 
-### Publishing Releases
-
-| Command                 | Description                                          |
-| ----------------------- | ---------------------------------------------------- |
-| `npm run release`       | Build and publish to GitHub Releases (all platforms) |
-| `npm run release:win`   | Build and publish Windows version                    |
-| `npm run release:mac`   | Build and publish macOS version                      |
-| `npm run release:linux` | Build and publish Linux version                      |
-
 ### Utilities
 
 | Command                 | Description                   |
