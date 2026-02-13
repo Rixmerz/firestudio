@@ -3,11 +3,11 @@
 > A powerful, free, and open-source desktop application for managing Firebase - Firestore, Storage, and Authentication
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-blue)](https://github.com/nicholasrubright/firestudio)
+[![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-blue)](https://github.com/Flowdesktech/firestudio)
 [![Firebase](https://img.shields.io/badge/Firebase-Complete-orange)](https://firebase.google.com/)
 [![Electron](https://img.shields.io/badge/Electron-28-47848F)](https://www.electronjs.org/)
 [![React](https://img.shields.io/badge/React-18-61DAFB)](https://reactjs.org/)
-[![CI](https://github.com/FlowdeskApp/firestudio/actions/workflows/ci.yml/badge.svg)](https://github.com/FlowdeskApp/firestudio/actions/workflows/ci.yml)
+[![CI](https://github.com/Flowdesktech/firestudio/actions/workflows/ci.yml/badge.svg)](https://github.com/Flowdesktech/firestudio/actions/workflows/ci.yml)
 
 **Keywords**: Firebase GUI, Firebase Client, Firebase Admin, Firebase Desktop, Firestore GUI, Firebase Storage GUI, Firebase Auth GUI, Firebase Manager, Firebase Viewer, Firebase Browser, Firebase Editor, NoSQL GUI, Document Database Client, Firebase Desktop App, Firefoo Alternative, Free Firebase Client, Firestudio
 
@@ -124,7 +124,7 @@ async function run() {
 
 #### Download Pre-built App (Recommended)
 
-Download the latest release for your platform from [GitHub Releases](https://github.com/FlowdeskApp/firestudio/releases).
+Download the latest release for your platform from [GitHub Releases](https://github.com/Flowdesktech/firestudio/releases).
 
 | Platform | Download                          |
 | -------- | --------------------------------- |
@@ -153,7 +153,7 @@ xattr -cr /Applications/Firestudio.app
 
 ```bash
 # Clone the repository
-git clone https://github.com/flowdeskApp/firestudio.git
+git clone https://github.com/Flowdesktech/firestudio.git
 cd firestudio
 
 # Install dependencies

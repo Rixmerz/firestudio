@@ -210,7 +210,7 @@
     },
     "publish": {
       "provider": "github",
-      "owner": "FlowdeskApp",
+      "owner": "Flowdesktech",
       "repo": "firestudio"
     }
   }
