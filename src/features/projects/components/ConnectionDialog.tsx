@@ -176,7 +176,7 @@ function ConnectionDialog({ open, onClose, onConnect, onGoogleSignIn, loading }:
               value={databaseId}
               onChange={(e) => setDatabaseId(e.target.value)}
               placeholder="(default)"
-              helperText="Dejar vacío para usar la base de datos default"
+              helperText="Leave blank to use the default database"
               size="small"
               disabled={loading}
               sx={{ mt: 2 }}
